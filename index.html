@@ -3,46 +3,93 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tienda Online de Bullterriers</title>
+    <title>Adopta un Bullterrier!</title>
     <link rel="icon" type="image/png" href="assets/ico/icon.svg">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styleIndex.css">
 </head>
 <body>
     <header>
-        <nav>
-            <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="adopcion.html">Adopción</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
-            </ul>
-        </nav>
-    <h1>Bienvenido a la Tienda Online de Bullterriers</h1>
-    <p>Conoce nuestros perros en adopcion!.</p>  
+         <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top shadow-sm">
+        <div class="container-fluid px-4">
+            <a class="navbar-brand fw-bold fs-5" href="index.html">
+                <span class="brand-icon">🐕</span> Adopta tu primer Bullterrier!
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto gap-3">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="adopcion.html">Adopción</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacto.html">Contacto</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://proyecto4patas.org/adopta/">Otras Razas</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
     </header>
-    <div>
-        <h1>La historia de nuestros Bullterriers</h1>
-        <p>En la Tienda Online de Bullterriers, nos dedicamos a promover la adopción responsable de estos increíbles perros. Nuestra misión es conectar a los Bullterriers con familias amorosas que puedan brindarles un hogar seguro y lleno de afecto.</p>
-    </div>
-    <div>
-        <h1>¿Por qué adoptar un Bullterrier?</h1>
-        <p>Los Bullterriers son conocidos por su lealtad, inteligencia y personalidad amigable. Al adoptar uno de nuestros perros, no solo estás brindando una segunda oportunidad a un animal necesitado, sino que también estás ganando un compañero fiel y cariñoso para toda la vida.</p>
-    </div>
-    <div>
-        <h1>Compromiso con el bienestar animal</h1>
-        <p>Nos comprometemos a garantizar que todos nuestros Bullterriers estén en óptimas condiciones de salud y bienestar antes de ser adoptados. Trabajamos en estrecha colaboración con veterinarios y expertos en comportamiento animal para asegurarnos de que cada perro reciba la atención y el cuidado que merece.</p>
-    </div>
-    <div>
-        <h1>Conoce a nuestros Bullterriers en adopción</h1>
-        <p>Explora nuestra sección de adopción para conocer a los Bullterriers que están buscando un hogar. Cada perro tiene su propia historia y personalidad única, y estamos seguros de que encontrarás al compañero perfecto para ti.</p>
-        <button><a href="adopcion.html">Ver Bullterriers en adopción</a></button>
-    </div>
-    <div>
-        <h1>Contáctanos</h1>
-        <p>Si estás interesado en adoptar un Bullterrier o tienes alguna pregunta, no dudes en contactarnos. Nuestro equipo estará encantado de ayudarte y proporcionarte toda la información que necesites.</p>
-        <button><a href="contacto.html">Contáctanos</a></button>
-    </div>
-    <footer>
-        <p>&copy; 2026 Tienda Online de Bullterriers. Todos los derechos reservados.</p>
+
+    <section class="hero-section">
+        <div class="hero-content">
+            <h1 class="hero-title">ADOPTÁ</h1>
+            <p class="hero-subtitle">Encuentra tu compañero perfecto</p>
+        </div>
+    </section>
+
+
+    <main class="container py-5">
+
+        <section class="content-section">
+            <h2 class="section-title">Bienvenido a nuestra página de adopción de Bullterrier</h2>
+            <p class="section-text">Conoce nuestros perros en adopción y encuentra al compañero ideal para tu familia.</p>
+        </section>
+
+
+        <section class="content-section">
+            <h2 class="section-title">La historia de nuestros Bullterriers</h2>
+            <p class="section-text">En la Tienda Online de Bullterriers, nos dedicamos a promover la adopción responsable de estos increíbles perros. Nuestra misión es conectar a los Bullterriers con familias amorosas que puedan brindarles un hogar seguro y lleno de afecto.</p>
+        </section>
+
+
+        <section class="content-section">
+            <h2 class="section-title">¿Por qué adoptar un Bullterrier?</h2>
+            <p class="section-text">Los Bullterriers son conocidos por su lealtad, inteligencia y personalidad amigable. Al adoptar uno de nuestros perros, no solo estás brindando una segunda oportunidad a un animal necesitado, sino que también estás ganando un compañero fiel y cariñoso para toda la vida.</p>
+        </section>
+
+
+        <section class="content-section">
+            <h2 class="section-title">Compromiso con el bienestar animal</h2>
+            <p class="section-text">Nos comprometemos a garantizar que todos nuestros Bullterriers estén en óptimas condiciones de salud y bienestar antes de ser adoptados. Trabajamos en estrecha colaboración con veterinarios y expertos en comportamiento animal para asegurarnos de que cada perro reciba la atención y el cuidado que merece.</p>
+        </section>
+
+        <section class="content-section text-center">
+            <h2 class="section-title">Conoce a nuestros Bullterriers en adopción</h2>
+            <p class="section-text">Explora nuestra sección de adopción para conocer a los Bullterriers que están buscando un hogar. Cada perro tiene su propia historia y personalidad única, y estamos seguros de que encontrarás al compañero perfecto para ti.</p>
+            <a href="adopcion.html" class="btn btn-adopt mt-4">Ver Bullterriers en adopción</a>
+        </section>
+
+        <section class="content-section text-center" id="contacto">
+            <h2 class="section-title">¿Tienes preguntas?</h2>
+            <p class="section-text">Si estás interesado en adoptar un Bullterrier o tienes alguna pregunta, no dudes en contactarnos. Nuestro equipo estará encantado de ayudarte.</p>
+            <a href="contacto.html" class="btn btn-adopt mt-4">Contáctanos</a>
+        </section>
+    </main>
+
+    <footer class="footer mt-5">
+        <div class="container py-4">
+            <p class="text-center mb-0">&copy; 2026 Pagina Online de adopcion de Bullterriers. Todos los derechos reservados.</p>
+        </div>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>

@@ -4,53 +4,245 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Adopción - Tienda Online de Bullterriers</title>
-        <link rel="icon" type="image/png" href="assets/ico/icon.svg">
-        <link rel="stylesheet" href="css/styleAdopcion.css">
+    <link rel="icon" type="image/png" href="assets/ico/icon.svg">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styleAdopcion.css">
 </head>
 <body>
-       <header>
-        <nav>
-            <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="adopcion.html">Adopción</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
-            </ul>
-        </nav>
-    <h1>Bienvenido a la Tienda Online de Bullterriers</h1>
-    <p>Conoce nuestros perros en adopcion!.</p>   
-    <div>
-        <ul>
-            <img src="assets/img/perri1.jpg" alt="Kiro">
-            <li>Nombre: Tino</li>
-            <li>Edad: 2 años</li>
-            <li>Raza: Bullterrier</li>
-            <li>Descripción: Tino es un perro juguetón y amigable que busca un hogar amoroso.</li>
-        </ul>
-        <ul>
-            <img src="assets/img/perri2.jpg" alt="Luna">
-            <li>Nombre: Luna</li>
-            <li>Edad: 3 años</li>
-            <li>Raza: Bullterrier</li>
-            <li>Descripción: Luna es una perra cariñosa y leal que necesita un hogar donde la cuiden.</li>
-        </ul>
-        <ul>
-            <img src="assets/img/perri3.jpg" alt="Max">
-            <li>Nombre: Max</li>
-            <li>Edad: 1 año</li>
-            <li>Raza: Bullterrier</li>
-            <li>Descripción: Max es un cachorro enérgico y juguetón que busca una familia activa.</li>
-        </ul>
-        <ul>
-            <img src="assets/img/perri4.jpg" alt="Bella">
-            <li>Nombre: Bella</li>
-            <li>Edad: 4 años</li>
-            <li>Raza: Bullterrier</li>
-            <li>Descripción: Bella es una perra tranquila y cariñosa que busca un hogar donde la quieran.</li>
-            
-    </div>
 
-    <footer>
-        <p>&copy; 2026 Tienda Online de Bullterriers. Todos los derechos reservados.</p>
-    </footer> 
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top shadow-sm">
+        <div class="container-fluid px-4">
+            <a class="navbar-brand fw-bold fs-5" href="index.html">
+                <span class="brand-icon">🐕</span> Adopta tu primer Bullterrier!
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto gap-3">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="adopcion.html">Adopción</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacto.html">Contacto</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://proyecto4patas.org/adopta/">Otras Razas</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <section class="hero-section">
+        <div class="hero-content">
+            <h1 class="hero-title">ADOPTÁ</h1>
+            <p class="hero-subtitle">Encuentra tu compañero perfecto</p>
+        </div>
+    </section>
+
+
+    <main class="container-fluid py-5">
+
+        <div class="text-center mb-5">
+            <h2 class="section-heading">CONOCELOS</h2>
+            <p class="section-subtitle">Conoce a nuestros Bullterriers que están buscando un hogar amoroso</p>
+        </div>
+
+
+        <div class="dogs-container">
+
+            <div class="dog-card">
+                <div class="dog-image-wrapper">
+                    <img src="assets/img/perri1.jpg" alt="Tino" class="dog-image">
+                    <div class="dog-badge">Disponible</div>
+                </div>
+                <div class="dog-info">
+                    <h3 class="dog-name">Tino</h3>
+                    <ul class="dog-details">
+                        <li><strong>Edad:</strong> 2 años</li>
+                        <li><strong>Raza:</strong> Bullterrier</li>
+                        <li><strong>Género:</strong> Macho</li>
+                        <li><strong>Tamaño:</strong> Grande</li>
+                    </ul>
+                    <p class="dog-description">Tino es un perro juguetón y amigable que busca un hogar amoroso. Es muy energético y le encanta jugar con otros perros.</p>
+                    <a href="contacto.html" class="btn btn-adopt-small mt-3">Quiero adoptar</a>
+                </div>
+            </div>
+
+            <div class="dog-card">
+                <div class="dog-image-wrapper">
+                    <img src="assets/img/perri2.jpg" alt="Luna" class="dog-image">
+                    <div class="dog-badge">Disponible</div>
+                </div>
+                <div class="dog-info">
+                    <h3 class="dog-name">Luna</h3>
+                    <ul class="dog-details">
+                        <li><strong>Edad:</strong> 3 años</li>
+                        <li><strong>Raza:</strong> Bullterrier</li>
+                        <li><strong>Género:</strong> Hembra</li>
+                        <li><strong>Tamaño:</strong> Grande</li>
+                    </ul>
+                    <a href="contacto.html" class="btn btn-adopt-small mt-3">Quiero adoptar</a>
+                </div>
+            </div>
+
+
+            <div class="dog-card">
+                <div class="dog-image-wrapper">
+                    <img src="assets/img/perri3.jpg" alt="Max" class="dog-image">
+                    <div class="dog-badge">Disponible</div>
+                </div>
+                <div class="dog-info">
+                    <h3 class="dog-name">Max</h3>
+                    <ul class="dog-details">
+                        <li><strong>Edad:</strong> 1 año</li>
+                        <li><strong>Raza:</strong> Bullterrier</li>
+                        <li><strong>Género:</strong> Macho</li>
+                        <li><strong>Tamaño:</strong> Mediano</li>
+                    </ul>
+                    <a href="contacto.html" class="btn btn-adopt-small mt-3">Quiero adoptar</a>
+                </div>
+            </div>
+
+
+            <div class="dog-card">
+                <div class="dog-image-wrapper">
+                    <img src="assets/img/perri4.jpg" alt="Bella" class="dog-image">
+                    <div class="dog-badge">Disponible</div>
+                </div>
+                <div class="dog-info">
+                    <h3 class="dog-name">Bella</h3>
+                    <ul class="dog-details">
+                        <li><strong>Edad:</strong> 4 años</li>
+                        <li><strong>Raza:</strong> Bullterrier</li>
+                        <li><strong>Género:</strong> Hembra</li>
+                        <li><strong>Tamaño:</strong> Grande</li>
+                    </ul>
+                    <a href="contacto.html" class="btn btn-adopt-small mt-3">Quiero adoptar</a>
+                </div>
+            </div>
+
+            <div class="dog-card">
+                <div class="dog-image-wrapper">
+                    <img src="assets/img/kira.jpg" alt="Kira" class="dog-image">
+                    <div class="dog-badge">Disponible</div>
+                </div>
+                <div class="dog-info">
+                    <h3 class="dog-name">Kira</h3>
+                    <ul class="dog-details">
+                        <li><strong>Edad:</strong> 9 años</li>
+                        <li><strong>Raza:</strong> Bullterrier</li>
+                        <li><strong>Género:</strong> Hembra</li>
+                        <li><strong>Tamaño:</strong> Grande</li>
+                    </ul>
+                    <p class="dog-description">Kira es una perra tranquila y cariñosa que busca un hogar donde la quieran. Le gusta jugar y dormir. Ideal para personas adultas o familias pacientes.</p>
+                    <a href="contacto.html" class="btn btn-adopt-small mt-3">Quiero adoptar</a>
+                </div>
+            </div>
+
+                        <div class="dog-card">
+                <div class="dog-image-wrapper">
+                    <img src="assets/img/perri6.png" alt="Mara" class="dog-image">
+                    <div class="dog-badge">Disponible</div>
+                </div>
+                <div class="dog-info">
+                    <h3 class="dog-name">mara</h3>
+                    <ul class="dog-details">
+                        <li><strong>Edad:</strong> 1 año</li>
+                        <li><strong>Raza:</strong> Bullterrier</li>
+                        <li><strong>Género:</strong> Hembra</li>
+                        <li><strong>Tamaño:</strong> pequeña </li>
+                    </ul>
+                    <p class="dog-description"></p>
+                    <a href="contacto.html" class="btn btn-adopt-small mt-3">Quiero adoptar</a>
+                </div>
+            </div>
+            
+            <div class="dog-card">
+                <div class="dog-image-wrapper">
+                    <img src="assets/img/perri7.jpg" alt="Fredo" class="dog-image">
+                    <div class="dog-badge">Disponible</div>
+                </div>
+                <div class="dog-info">
+                    <h3 class="dog-name">Fredo</h3>
+                    <ul class="dog-details">
+                        <li><strong>Edad:</strong> 3 meses </li>
+                        <li><strong>Raza:</strong> Bullterrier</li>
+                        <li><strong>Género:</strong> Mcho</li>
+                        <li><strong>Tamaño:</strong> pequeño </li>
+                    </ul>
+                    <p class="dog-description">.</p>
+                    <a href="contacto.html" class="btn btn-adopt-small mt-3">Quiero adoptar</a>
+                </div>
+            </div>
+
+                                    <div class="dog-card">
+                <div class="dog-image-wrapper">
+                    <img src="assets/img/perri8.jpg" alt="Loto" class="dog-image">
+                    <div class="dog-badge">Disponible</div>
+                </div>
+                <div class="dog-info">
+                    <h3 class="dog-name">Loto</h3>
+                    <ul class="dog-details">
+                        <li><strong>Edad:</strong> 1 año</li>
+                        <li><strong>Raza:</strong> Bullterrier</li>
+                        <li><strong>Género:</strong> Hembra</li>
+                        <li><strong>Tamaño:</strong> pequeña </li>
+                    </ul>
+                    <p class="dog-description"></p>
+                    <a href="contacto.html" class="btn btn-adopt-small mt-3">Quiero adoptar</a>
+                </div>
+            </div>
+
+                                    <div class="dog-card">
+                <div class="dog-image-wrapper">
+                    <img src="assets/img/perri9.webp" alt="Mara" class="dog-image">
+                    <div class="dog-badge">Disponible</div>
+                </div>
+                <div class="dog-info">
+                    <h3 class="dog-name">Walter</h3>
+                    <ul class="dog-details">
+                        <li><strong>Edad:</strong> 8 año</li>
+                        <li><strong>Raza:</strong> Bullterrier</li>
+                        <li><strong>Género:</strong> Macho</li>
+                        <li><strong>Tamaño:</strong> Grande </li>
+                    </ul>
+                    <p class="dog-description">.</p>
+                    <a href="contacto.html" class="btn btn-adopt-small mt-3">Quiero adoptar</a>
+                </div>
+            </div>
+
+                                    <div class="dog-card">
+                <div class="dog-image-wrapper">
+                    <img src="assets/img/perri10.jpg" alt="Mara" class="dog-image">
+                    <div class="dog-badge">Disponible</div>
+                </div>
+                <div class="dog-info">
+                    <h3 class="dog-name">Stuart</h3>
+                    <ul class="dog-details">
+                        <li><strong>Edad:</strong> 4 año</li>
+                        <li><strong>Raza:</strong> Bullterrier</li>
+                        <li><strong>Género:</strong> Macho</li>
+                        <li><strong>Tamaño:</strong> medinao </li>
+                    </ul>
+                    <p class="dog-description">.</p>
+                    <a href="contacto.html" class="btn btn-adopt-small mt-3">Quiero adoptar</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer mt-5">
+        <div class="container py-4">
+            <p class="text-center mb-0">&copy; 2026 Tienda Online de Bullterriers. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
