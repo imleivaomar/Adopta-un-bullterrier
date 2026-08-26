@@ -28,7 +28,7 @@ body {
 
 .navbar-brand {
     color: var(--primary-color) !important;
-    font-size: 1.3rem;
+    font-size: 3rem;
     display: flex;
     align-items: center;
     gap: 8px;
