@@ -28,10 +28,17 @@ body {
 
 .navbar-brand {
     color: var(--primary-color) !important;
-    font-size: 2rem;
+    font-size: 1.2rem;
     display: flex;
     align-items: center;
-    gap: 8px;
+    gap: 10px;
+    white-space: nowrap;
+}
+
+.logo-img {
+    width: 50px !important;
+    height: 50px !important;
+    object-fit: contain;
 }
 
 .brand-icon {
@@ -288,6 +295,15 @@ body {
 }
 
 @media (max-width: 480px) {
+    .navbar-brand {
+        font-size: 1rem;
+    }
+
+    .logo-img {
+        width: 40px !important;
+        height: 40px !important;
+    }
+
     .hero-section {
         height: 250px;
         padding: 0 20px;
